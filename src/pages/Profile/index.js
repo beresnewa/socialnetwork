@@ -24,7 +24,7 @@ const ProfilePage = (props) => {
         
         return userData?.friends.map(item => {
             return (
-                <div className="card">
+                <div className="card anyclass">
                     <Link
                         key = {item._id}
                         to = {`/users/${item.index}`}
@@ -58,3 +58,5 @@ const ProfilePage = (props) => {
 }
 
 export default ProfilePage;
+
+// изменения:)
