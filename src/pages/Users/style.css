@@ -1,0 +1,17 @@
+.page-users {
+
+    padding-top:10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-right: 10vw;
+    padding-left: 10vw;
+
+}
+
+.page-users > a{
+    width: 25%;
+}
