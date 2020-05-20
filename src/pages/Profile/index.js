@@ -24,7 +24,7 @@ const ProfilePage = (props) => {
         
         return userData?.friends.map(item => {
             return (
-                <div className="card">
+                <div className="card any">
                     <Link
                         key = {item._id}
                         to = {`/users/${item.index}`}
